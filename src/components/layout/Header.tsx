@@ -1,20 +1,33 @@
 // src/components/layout/Header.tsx
 
 import React from "react";
+import Logo from "../Logo";
 
 export default function Header() {
   return (
-    <header>
-      <div>LOGO</div>
+    <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-lg border-b border-border/50">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="flex items-center justify-between h-16">
+          {/* Logo */}
+          <div>
+            {/* <img
+              src="/logo.svg.png"
+              alt="Kezzy-Totes"
+              className="h-8 w-auto text-sage"
+            /> */}
+            <Logo />
+          </div>
 
-      <nav>
-        <a href="/">Home</a>
-        <a href="/products">Products</a>
-      </nav>
+          <nav>
+            <a href="/">Home</a>
+            <a href="/products">Products</a>
+          </nav>
 
-      <div>
-        <a href="/cart">🛒</a>
-        <a href="/auth">Login</a>
+          <div>
+            <a href="/cart">🛒</a>
+            <a href="/auth">Login</a>
+          </div>
+        </div>
       </div>
     </header>
   );
