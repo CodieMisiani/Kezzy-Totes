@@ -2,6 +2,7 @@
 
 import React from "react";
 import Logo from "../Logo";
+import NavLinks from "../NavLinks";
 
 export default function Header() {
   return (
@@ -18,11 +19,13 @@ export default function Header() {
             <Logo />
           </div>
 
-          <nav>
+          {/* Desktop Navigation */}
+          {/* <nav>
             <a href="/">Home</a>
             <a href="/products">Products</a>
-          </nav>
-
+          </nav> */}
+          <NavLinks />
+          {/* Right Actions */}
           <div>
             <a href="/cart">🛒</a>
             <a href="/auth">Login</a>
