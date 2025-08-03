@@ -3,6 +3,7 @@
 import React from "react";
 import Logo from "../Logo";
 import NavLinks from "../NavLinks";
+import RightActions from "../RightActions";
 
 export default function Header() {
   return (
@@ -26,6 +27,7 @@ export default function Header() {
           </nav> */}
           <NavLinks />
           {/* Right Actions */}
+          <RightActions />
           <div>
             <a href="/cart">🛒</a>
             <a href="/auth">Login</a>
