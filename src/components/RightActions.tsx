@@ -1,7 +1,8 @@
 "use client";
 import {
-  Badge,
+  Ghost,
   Heart,
+  Icon,
   Search,
   SearchIcon,
   ShoppingBag,
@@ -9,29 +10,33 @@ import {
 } from "lucide-react";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
+import { Badge } from "@/components/ui/badge";
 
 export default function RightActions() {
   const [cartItems] = useState(3); // ✅ State to track cart count
   return (
     <div className="flex items-center space-x-4">
       {/* Search */}
-      <Button>
-        <SearchIcon />
+      <Button variant={"ghost"} size={"icon"} className="hidden md:flex">
+        <SearchIcon className="w-5 h-5" />
       </Button>
       {/* Wishlist */}
-      <Button>
-        <Heart />
+      <Button variant={"ghost"} size={"icon"}>
+        <Heart className="w-5 h-5" />
       </Button>
       {/* User */}
-      <Button>
-        <User />
+      <Button variant={"ghost"} size={"icon"}>
+        <User className="w-5 h-5" />
       </Button>
       {/* Cart */}
-      <Button>
-        <ShoppingBag />
-        <Badge />
+      <Button variant={"ghost"} size={"icon"}>
+        <ShoppingBag className="w-5 h-5" />
+        <Badge
+          variant={"destructive"}
+          className="absolute -top-2 -right-2 h-5 w-5 flex items-center justify-center p-0 text-xs"
+        ></Badge>
       </Button>
-      RightActions
+      {/* RightActions */}
     </div>
   );
 }
