@@ -30,7 +30,7 @@ export default function Header() {
           <RightActions />
           <div>
             <a href="/cart">🛒</a>
-            <a href="/auth">Login</a>
+            {/* <a href="/auth">Login</a> */}
           </div>
         </div>
       </div>
