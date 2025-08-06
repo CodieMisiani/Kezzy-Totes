@@ -29,7 +29,7 @@ export default function Header() {
           {/* Right Actions */}
           <RightActions />
           <div>
-            <a href="/cart">🛒</a>
+            {/* <a href="/cart">🛒</a> */}
             {/* <a href="/auth">Login</a> */}
           </div>
         </div>
