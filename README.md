@@ -1,4 +1,4 @@
-This is  Next js project.
+ Next js project.
 
 
 
