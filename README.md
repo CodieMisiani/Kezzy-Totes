@@ -2,7 +2,7 @@
 
 
 
- Run the development server
+ Run development server
 
 ```bash
 npm run dev
