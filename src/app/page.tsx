@@ -4,6 +4,7 @@ import Footer from "@/components/layout/Footer";
 export default function Home() {
   return (
     <>
+      {/* This is the Homepage */}
       <div className="min-h-screen bg-background">
         <Header />
         <main>
