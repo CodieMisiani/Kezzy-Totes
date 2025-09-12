@@ -1,4 +1,4 @@
-j Next js project.
+Next js project.
 
 
 
