@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "@/assets/hero-background.jpg";
+
 const HeroSection = () => {
   return (
     <>
@@ -7,7 +7,7 @@ const HeroSection = () => {
         {/* Background Image with Overlay */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroImage})` }}
+          style={{ backgroundImage: `url('/hero-background.jpg')` }}
         />
         <div className="absolute inset-0 bg-gradient-hero" />
       </section>
