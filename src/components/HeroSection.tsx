@@ -26,6 +26,9 @@ const HeroSection = () => {
             <button className="bg-green-600 hover:bg-green-500 w-32 h-8 mt-8 cursor-pointer rounded-md transition ease-in-out duration-300 text-white">
               Shop now
             </button>
+            <button className="ml-4 border-2 border-green-500 hover:bg-green-500 w-32 h-8 mt-8 cursor-pointer rounded-md transition ease-in-out duration-300 text-white">
+              View Collection
+            </button>
           </div>
         </div>
       </section>
