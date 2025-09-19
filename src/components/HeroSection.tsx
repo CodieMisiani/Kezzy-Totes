@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { ShoppingBagIcon } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -29,7 +30,7 @@ const HeroSection = () => {
               variant={"secondary"}
               className="bg-green-600 hover:scale-105 hover:shadow-lg hover:bg-green-500 w-32 h-8 mt-8 cursor-pointer rounded-md transition ease-in-out duration-300 text-white"
             >
-              Shop now <ArrowRight />
+              <ShoppingBagIcon /> Shop now <ArrowRight />
             </Button>
             <Button
               variant={"ghost"}
