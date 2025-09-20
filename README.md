@@ -2,7 +2,7 @@ Next js project
 
 
 
- Run development server
+ Run development server;
 
 ```bash
 npm run dev
