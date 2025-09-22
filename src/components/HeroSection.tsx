@@ -27,7 +27,7 @@ const HeroSection = () => {
           </div>
           <div>
             <Button
-              variant={"secondary"}
+              variant={"ghost"}
               className="bg-green-600 hover:scale-105 hover:shadow-lg hover:bg-green-500 w-32 h-8 mt-8 cursor-pointer rounded-md transition ease-in-out duration-300 text-white"
             >
               <ShoppingBagIcon /> Shop now <ArrowRight />
